@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Agregar</title>
+</head>
+<body onload="cargar();">
+    <style>
+.borrar{
+    color: red;
+    background:pink;
+}
+
+    </style>
+<script src="Js/js.js"></script>
+<div id="formulario">
+
+    <button type="button" onclick="borrartodo();">Eliminar todos</button>
+   <p> <input type="text" id="nombre" placeholder="Nombre"/></p>
+   <p> <input type="text" id="apellido" placeholder="Apellido"/></p>
+   <p> <input type="text" id="telefono" placeholder="Numero de Telefono"/></p>
+   <p> <input type="text" id="email" placeholder="E-Mail"/></p>
+   <p> <input type="text" id="cedula"placeholder="Cedula de Identidad"/></p>
+   <label>Fecha de Nacimiento</label>
+   <p> <input type="date" id="fecha" /></p>
+    <button type="button" onclick="AgregarUsuario();">Agregar Usuario</button>
+</div>
+
+<div>
+<table>
+<th> Nombre </th>
+<th> Apellido </th>
+<th> Telefono </th>
+<th> Email </th>
+<th> Cedula </th>
+<th> Fecha </th>
+<th> Zodiaco </th>
+
+<tbody id="tbDatos">
+
+</tbody>
+
+
+
+
+
+</table>
+
+
+</div>
+</body>
+
+</html>
